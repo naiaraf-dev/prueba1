@@ -1,0 +1,9 @@
+ion-fab-button {
+  width: 70px;   // más ancho
+  height: 70px;   // más alto
+  font-size: 14px; // ajustar texto
+}
+
+ion-fab-button:hover {
+    --background-color: #4a8cd9; /* color al pasar el ratón */
+}

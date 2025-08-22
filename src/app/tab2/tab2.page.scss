@@ -1,0 +1,19 @@
+ion-fab-button::part(native) {
+  background-color: #469df0;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3),
+              0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  color: black;
+  transition: background-color 0.2s ease; /* suaviza el cambio */
+}
+
+/* Hover */
+ion-fab-button::part(native):hover {
+  background-color: #0f74f8;
+}
+
+/* Active (cuando hacés click) */
+ion-fab-button::part(native):active {
+  background-color: #19578a;
+}
